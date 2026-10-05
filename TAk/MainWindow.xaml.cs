@@ -20,5 +20,34 @@ namespace TAk
         {
             InitializeComponent();
         }
+
+        private void Ruletka(object sender, RoutedEventArgs e)
+        {
+            Ruleta Okno = new Ruleta();
+            Okno.Show();
+
+            this.Close();
+        }
+
+        private void Zaklady(object sender, RoutedEventArgs e)
+        {
+            Zakaldy Okno = new Zakaldy();
+            Okno.Show();
+
+            this.Close();
+        }
+
+        private void BlackJack(object sender, RoutedEventArgs e)
+        {
+            BlackJack Okno = new BlackJack();
+            Okno.Show();
+
+            this.Close();
+        }
+
+        private void Exit(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
