@@ -15,5 +15,7 @@
         <Button Content="Zakłady" Width="458" Height="172" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Zaklady" FontSize="90" Background="Gold" FontWeight="Bold"/>
         <Button Content="Slots" Width="458" Height="172" HorizontalAlignment="Left" VerticalAlignment="Center" Click="BlackJack" FontSize="90" Margin="1452,0,0,0" Background="Gold" FontWeight="Bold"/>
         <Button Content="Wyjscie" Width="458" Height="172" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Exit" FontSize="90" Margin="1420,839,0,0" RenderTransformOrigin="0.496,0.488" Background="Gold" Foreground="Red"  FontWeight="Bold"/>
+        <TextBlock Text="" RenderTransformOrigin="0.392,0.553" Background="White" Margin="1330,10,10,946" x:Name="punktyy" FontSize="90" TextAlignment="Center"/>
+        <Button Content="Reset" Width="458" Height="172" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Reset" FontSize="90" Margin="10,839,0,0" RenderTransformOrigin="0.496,0.488" Background="Gold" Foreground="Red"  FontWeight="Bold"/>
     </Grid>
 </Window>

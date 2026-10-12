@@ -11,6 +11,10 @@ WindowStyle="None"
         Background="Red">
     <Grid>
         <Button Content="Wroc" Width="323" Height="124" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Powrot" FontSize="90" Margin="10,10,0,0" Background="Gold" FontWeight="Bold"/>
-        <Button Content="Start" Width="323" Height="124" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Start" FontSize="90" Margin="1350,441,0,0" Background="Gold" FontWeight="Bold"/>
+        <TextBlock Text="1" RenderTransformOrigin="0.392,0.553" Background="White" Margin="172,411,1534,446" x:Name="Jeden" FontSize="150" TextAlignment="Center"/>
+        <TextBlock Text="1" RenderTransformOrigin="0.392,0.553" Background="White" Margin="508,411,1198,446" x:Name="Dwa" FontSize="150" TextAlignment="Center"/>
+        <TextBlock Text="1" RenderTransformOrigin="0.392,0.553" Background="White" Margin="853,411,853,446" x:Name="Trzy" FontSize="150" TextAlignment="Center"/>
+        <TextBlock Text="" RenderTransformOrigin="0.392,0.553" Background="White" Margin="1330,10,10,946" x:Name="punktyy" FontSize="90" TextAlignment="Center"/>
+        <Button Content="Start" Width="323" Height="124" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Start" FontSize="90" Margin="1227,460,0,0" Background="Gold" FontWeight="Bold"/>
     </Grid>
 </Window>

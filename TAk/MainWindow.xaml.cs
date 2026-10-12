@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Security.Cryptography.X509Certificates;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,9 +17,16 @@ namespace TAk
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        public static class Dane
+        {
+            public static int punkty = 1000;
+        }
         public MainWindow()
         {
             InitializeComponent();
+            punktyy.Text = "Punkty:" + Dane.punkty.ToString();
+
         }
 
         private void Ruletka(object sender, RoutedEventArgs e)
@@ -48,6 +56,11 @@ namespace TAk
         private void Exit(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+
+        private void Reset(object sender, RoutedEventArgs e)
+        {
+            Dane.punkty = 1000;
         }
     }
 }

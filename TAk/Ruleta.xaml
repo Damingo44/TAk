@@ -11,5 +11,25 @@ WindowStyle="None"
         Background="Red">
     <Grid>
         <Button Content="Wroc" Width="323" Height="124" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Powrot" FontSize="90" Margin="10,10,0,0" Background="Gold" FontWeight="Bold"/>
+        <TextBlock Text="" RenderTransformOrigin="0.392,0.553" Background="White" Margin="1330,10,10,946" x:Name="punktyy" FontSize="90" TextAlignment="Center"/>
+        <TextBlock Text="Obecna Liczba:" Width="355" Height="313" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="50" Margin="10,414,0,0" Background="white" FontWeight="Bold" x:Name="Wynik"/>
+        <Button Content="Start" Width="323" Height="124" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Start" FontSize="90" Margin="1546,488,0,0" Background="Gold" FontWeight="Bold"/>
+        <Button Content="+1" Width="152" Height="115" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Plus1" FontSize="50" Margin="1389,382,0,0" Background="Gold" FontWeight="Bold" RenderTransformOrigin="0.986,0.486"/>
+        <Button Content="+10" Width="152" Height="115" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Plus10" FontSize="50" Margin="1389,497,0,0" Background="Gold" FontWeight="Bold" RenderTransformOrigin="0.986,0.486"/>
+        <Button Content="+100" Width="152" Height="115" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Plus100" FontSize="50" Margin="1389,612,0,0" Background="Gold" FontWeight="Bold" RenderTransformOrigin="0.986,0.486"/>
+        <Button Content="Reset" Width="323" Height="115" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Reset" FontSize="90" Margin="1546,612,0,0" Background="Gold" FontWeight="Bold" RenderTransformOrigin="0.986,0.486"/>
+        <Button Content="0" Width="114" Height="115" HorizontalAlignment="Left" VerticalAlignment="Top" Click="WybierzLiczbe" FontSize="50" Margin="370,493,0,0" Background="Gold" FontWeight="Bold" RenderTransformOrigin="0.986,0.486"/>
+        <Button Content="1" Width="114" Height="115" HorizontalAlignment="Left" VerticalAlignment="Top" Click="WybierzLiczbe" FontSize="50" Margin="484,377,0,0" Background="Gold" FontWeight="Bold" RenderTransformOrigin="0.986,0.486"/>
+        <Button Content="2" Width="114" Height="116" HorizontalAlignment="Left" VerticalAlignment="Top" Click="WybierzLiczbe" FontSize="50" Margin="484,492,0,0" Background="Gold" FontWeight="Bold" RenderTransformOrigin="0.986,0.486"/>
+        <Button Content="3" Width="114" Height="115" HorizontalAlignment="Left" VerticalAlignment="Top" Click="WybierzLiczbe" FontSize="50" Margin="484,608,0,0" Background="Gold" FontWeight="Bold" RenderTransformOrigin="0.986,0.486"/>
+        <Button Content="4" Width="114" Height="115" HorizontalAlignment="Left" VerticalAlignment="Top" Click="WybierzLiczbe" FontSize="50" Margin="598,377,0,0" Background="Gold" FontWeight="Bold" RenderTransformOrigin="0.986,0.486"/>
+        <Button Content="5" Width="114" Height="115" HorizontalAlignment="Left" VerticalAlignment="Top" Click="WybierzLiczbe" FontSize="50" Margin="598,493,0,0" Background="Gold" FontWeight="Bold" RenderTransformOrigin="0.986,0.486"/>
+        <Button Content="6" Width="114" Height="115" HorizontalAlignment="Left" VerticalAlignment="Top" Click="WybierzLiczbe" FontSize="50" Margin="598,608,0,0" Background="Gold" FontWeight="Bold" RenderTransformOrigin="0.986,0.486"/>
+        <Button Content="7" Width="114" Height="115" HorizontalAlignment="Left" VerticalAlignment="Top" Click="WybierzLiczbe" FontSize="50" Margin="712,377,0,0" Background="Gold" FontWeight="Bold" RenderTransformOrigin="0.986,0.486"/>
+        <Button Content="8" Width="114" Height="115" HorizontalAlignment="Left" VerticalAlignment="Top" Click="WybierzLiczbe" FontSize="50" Margin="712,493,0,0" Background="Gold" FontWeight="Bold" RenderTransformOrigin="0.986,0.486"/>
+        <Button Content="9" Width="114" Height="115" HorizontalAlignment="Left" VerticalAlignment="Top" Click="WybierzLiczbe" FontSize="50" Margin="712,608,0,0" Background="Gold" FontWeight="Bold" RenderTransformOrigin="0.986,0.486"/>
+        <Button Content="10" Width="114" Height="115" HorizontalAlignment="Left" VerticalAlignment="Top" Click="WybierzLiczbe" FontSize="50" Margin="826,377,0,0" Background="Gold" FontWeight="Bold" RenderTransformOrigin="0.986,0.486"/>
+        <Button Content="11" Width="114" Height="116" HorizontalAlignment="Left" VerticalAlignment="Top" Click="WybierzLiczbe" FontSize="50" Margin="826,493,0,0" Background="Gold" FontWeight="Bold" RenderTransformOrigin="0.986,0.486"/>
+        <Button Content="12" Width="114" Height="115" HorizontalAlignment="Left" VerticalAlignment="Top" Click="WybierzLiczbe" FontSize="50" Margin="826,608,0,0" Background="Gold" FontWeight="Bold" RenderTransformOrigin="0.986,0.486"/>
     </Grid>
 </Window>

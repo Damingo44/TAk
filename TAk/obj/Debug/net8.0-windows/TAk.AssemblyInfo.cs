@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TAk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3467ba59d8a413d18f5f7235f2bbdb4d44becf3e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bfb283f050fb49fe16cb01b66d3046305f68a39")]
 [assembly: System.Reflection.AssemblyProductAttribute("TAk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TAk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -22,6 +22,7 @@ namespace TAk
         public BlackJack()
         {
             InitializeComponent();
+            punktyy.Text = "Punkty:" + MainWindow.Dane.punkty.ToString();
         }
 
         private void Powrot(object sender, RoutedEventArgs e)
@@ -34,11 +35,25 @@ namespace TAk
 
         private void Start(object sender, RoutedEventArgs e)
         {
-            int PierwszaKarta = new Random().Next(1, 11);
-            int DrugaKarta = new Random().Next(1, 11);
-            int TrzeciaKarta = new Random().Next(1, 11);
-            int wynik = PierwszaKarta + DrugaKarta + TrzeciaKarta;
+            int PierwszaKarta = new Random().Next(1, 7);
+            int DrugaKarta = new Random().Next(1, 7);
+            int TrzeciaKarta = new Random().Next(1, 7);
 
+            Jeden.Text = PierwszaKarta.ToString();
+            Dwa.Text = DrugaKarta.ToString();
+            Trzy.Text = TrzeciaKarta.ToString();
+
+            if (PierwszaKarta == DrugaKarta && DrugaKarta == TrzeciaKarta)
+            {
+                MessageBox.Show("Wygrałeś");
+                MainWindow.Dane.punkty += 100;
+            }
+            else
+            {
+                MessageBox.Show("Przegrałeś");
+                MainWindow.Dane.punkty -= 10;
+            }
+            punktyy.Text = "Punkty:" + MainWindow.Dane.punkty.ToString();
         }
     }
 }
