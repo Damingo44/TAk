@@ -85,7 +85,7 @@ namespace TAk {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TAk;V1.0.0.0;component/blackjack.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TAk;component/blackjack.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\BlackJack.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -35,7 +35,18 @@ namespace TAk
         private void WybierzLiczbe(object sender, RoutedEventArgs e)
         {
             Button btn = (Button)sender;
-            a = int.Parse(btn.Content.ToString());
+            if (btn.Content.ToString() == "Niebieskie")
+            {
+                a = 20;
+            }
+            if (btn.Content.ToString() == "Białe")
+            {
+                a = 21;
+            }
+            if (btn.Content.ToString() != "Niebieskie" && btn.Content.ToString() != "Białe")
+            {
+                a = int.Parse(btn.Content.ToString());
+            }
         }
 
         private void Start(object sender, RoutedEventArgs e)
@@ -46,6 +57,16 @@ namespace TAk
             {
                 MessageBox.Show("Wygrałeś");
                 MainWindow.Dane.punkty += Jedynki + (dychy * 10) + (setki * 100);
+            }
+            else if (a == 21 && wynik % 2 == 0)
+            {
+                MessageBox.Show("Wygrałeś");
+                MainWindow.Dane.punkty += Jedynki + (dychy * 10) + (setki * 100)/2;
+            }
+            else if (a == 20 && wynik % 2 == 1)
+            {
+                MessageBox.Show("Wygrałeś");
+                MainWindow.Dane.punkty += Jedynki + (dychy * 10) + (setki * 100)/2;
             }
             else
             {
